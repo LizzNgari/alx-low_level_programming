@@ -2,12 +2,12 @@
 #include <time.h>
 /* more headers go there */
 #include<stdio.h>
-/* betty style function belonging to main*/
- * *
- * main - main entry of the actual program
+/* betty style function belonging to main */
+/**
+ * main ^ main entry of this program
  *
- * Return: 0
- * /
+ * Return: always (0)
+ */
 int main(void)
 {
 	int n;
@@ -21,6 +21,6 @@ int main(void)
 		printf("%d is zero", n);
 	else if (n < 0)
 		printf("%d is negative", n)
-	printf ("\n");
+	printf("\n");
 	return (0);
 }
