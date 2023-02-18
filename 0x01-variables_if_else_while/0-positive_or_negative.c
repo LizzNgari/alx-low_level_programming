@@ -4,7 +4,7 @@
 #include<stdio.h>
 /* betty style function belonging to main */
 /**
- * main ^ main entry of this program
+ * main ^ is the main entry of the program
  *
  * Return: always (0)
  */
