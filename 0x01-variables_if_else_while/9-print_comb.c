@@ -17,10 +17,10 @@ int main(void)
 	{
 		putchar((x % 10) + '0');
 		if (x == 9)
-	/* continue to print comma and space except if x == 9*/
+	/*continue to print comma and space except if x == 9*/
 			continue;
 		putchar(',');
-	        putchar(' ');
+		putchar(' ');
 	}
 putchar('\n');
 	return (0);
