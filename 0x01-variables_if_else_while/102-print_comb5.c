@@ -1,32 +1,39 @@
 #include <stdio.h>
 /**
- * main - prints all possible combinations of two two digiy numbers
+ * main - prints all possible combinations of two two-digit numbers
  *
- * Return: Always 0 (Success)
+ * Return: always 0 (successful)
  */
 int main(void)
 {
-	int i, j;
+	/*
+	 * all posible combinations of two 2-digit numbers
+	 * both separated by space and thereafter a comma
+	 */
 
-	for (i = 0 ; i <= 98 ; i++)
+	/*declare the two numbers*/
+	int j, k;
+
+	/* loop through highest possible of j=98, with 1 less than k*/
+	for (j = 0 ; j <= 98 ; j++)
 	{
-		for (j = 0 ; j <= 99 ; j++)
+		/* loop through highest possible of k=99, with 1 higher than j*/
+		for (k = j + 1 ; k <= 99 ; k++)
 		{
-			if (i < j)
-			{
-			putchar(i / 10) + 0;
-			putchar(i % 10) + 0;
+			/*print all two-digit value of the numbers*/
+			putchar((j / 10) + 0;
+			putchar((j % 10) + 0;
 			putchar(' ');
-			putchar(j / 10) + 0;
-			putchar(j & 10) + 0;
-			if (i != 98 | | j != 99)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
+			putchar((k / 10) + 0;
+			putchar((k % 10) + 0;
+			/*continue to put comma and space till the final combination*/
+			if (j == 98 && k == 99)
+			continue;
 
+			putchar(',');
+			putchar(' ');
+		}
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
