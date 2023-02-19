@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<ctype>
+#include <ctype.h>
 /**
  * main- is the ain entry of the program
  *
