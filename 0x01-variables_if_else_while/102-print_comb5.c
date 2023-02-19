@@ -21,11 +21,11 @@ int main(void)
 		for (k = j + 1 ; k <= 99 ; k++)
 		{
 			/*print all two-digit value of the numbers*/
-			putchar((j / 10) + 0);
-			putchar((j % 10) + 0);
+			putchar((j / 10) + 48);
+			putchar((j % 10) + 48);
 			putchar(' ');
-			putchar((k / 10) + 0);
-			putchar((k % 10) + 0);
+			putchar((k / 10) + 48);
+			putchar((k % 10) + 48);
 			/*continue to put comma and space till the final combination*/
 			if (j == 98 && k == 99)
 			continue;
