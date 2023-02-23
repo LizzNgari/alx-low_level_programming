@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Prints first 50 Fibonacci numbers, starting with 1 and 2,
- * then eparated by a comma followed by a space.
- * fib's next no. is addition of last two numbers.
+ * main - Prints first 50 Fibonacci numbers, starting with 1 and 2,separated by a comma followed by a space.
  *
  *
  *
- * Return: 0 if succesful
+ *
+ *
+ *
+ * Return: 0, if successful
  */
 int main(void)
 {
@@ -25,6 +26,7 @@ int main(void)
 		if (loop == 49)
 			printf("\n");
 		else
-			printf(", ");	
+			printf(", ");
 	}
+	return (0);
 }
