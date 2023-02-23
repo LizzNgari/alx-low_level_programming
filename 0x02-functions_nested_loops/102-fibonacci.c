@@ -25,6 +25,6 @@ int main(void)
 		if (loop == 49)
 			printf("\n");
 		else
-			printf(", ");
+			printf(", ");	
 	}
 }
